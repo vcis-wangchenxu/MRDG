@@ -1,0 +1,14 @@
+env: "meltingpot"
+
+env_args:
+  key: 'clean_up'  # THE ENV NAME FOR TRAINING
+  individual_rewards: False  # using individual rewards or shared global rewards to train the model
+  gray_scale: False  # use gray scale?
+
+test_greedy: True
+test_nepisode: 100
+test_interval: 50000
+log_interval: 50000
+runner_log_interval: 10000
+learner_log_interval: 10000
+t_max: 100000000
